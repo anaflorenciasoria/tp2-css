@@ -21,6 +21,11 @@ h1{
 	font-size: 90px;
 	text-align: center;
 }
+
+#nav{
+	display: flex;
+	justify-content: space-around;
+}
 nav{
  background-color: #E74C3C;
  margin-bottom: 40px;	
@@ -29,6 +34,7 @@ nav{
 .a_class{
 	display: inline-block;
 	padding: 10px 20px;
+	margin-top: 25px;
 	margin-right: 30px;
 	margin-left: 30px;
 	letter-spacing: 2px;
@@ -38,12 +44,13 @@ nav{
 	font-size: 20px;
 	overflow: hidden;
 	transition: 0.2s;
-	border-radius: 30px;
+	border-radius: 25px;
 }
 
 .a_class:hover{
 background:#F7DC6F;
 box-shadow: 0 0 10px #F7DC6F, 0 0 30px #F7DC6F,0 0 60px #F7DC6F;
+margin-bottom: 30px;
 }
 .div1 {
 	clear: both;
@@ -131,6 +138,10 @@ footer{
 	text-decoration: underline;
 }
 
+.underline:hover{
+	font-size: 30px;
+}
+
 
 body{
 	background-color:#f4fab4;
@@ -175,4 +186,45 @@ img{
 	100%{
 		box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
 	}
+}
+
+form{
+	font-weight: bold;
+}
+
+.contact-button{
+	margin-top: 25px;
+    display: inline-block;
+	padding: 10px 20px;
+	letter-spacing: 2px;
+	color:black;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 30px;
+	background-color: #E74C3C;
+ 	margin-bottom: 40px;	
+}
+
+.contact-button:hover{
+background:#F1948A;
+box-shadow: 0 0 10px #F1948A, 0 0 30px #F1948A,0 0 60px #F1948A;
+}
+
+.div1-1 {
+	font-size: 15px;
+	color: #4A235A ;
+}
+
+.div1-1:hover {
+	font-size: 20px;
+	color:red ;
+}
+
+#video:hover{
+	color:red;
+}
+
+.subtitulos:hover{
+	color: red;
 }
