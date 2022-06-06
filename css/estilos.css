@@ -1,8 +1,5 @@
 
-*{
-	margin: 0;
-	padding: 0;
-}
+
 
 @font-face {
 	font-family: "cursiva" ;
@@ -10,38 +7,65 @@
 }
 
 
-header{
-	margin-bottom: 1%;
-	background-color: #F7DC6F;	
-	background-image: url(../imagenes/choco.jpg);
-	background-size:cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	width:100%;
-	height: 100%;
+/*NAV*/
+
+.ilogo{
+	height: 12vh;
+}
+.nav1{
+	position: fixed;
+	width: 100%;
+	background-color: black;
+}
+.contact{
+	color: white;
+	font-family: "cursiva";
+	font-size: 1.5em;
+	border-radius: 6vh;
+}
+.contact:hover{
+	background:#F7DC6F;
+	box-shadow: 0 0 10vh #F7DC6F, 0 0 10vh #F7DC6F,0 0 10vh #F7DC6F;
+	color:black;
 }
 
+/*TITLE*/
 h1{
-	padding: 5%;
-	color: white;
+	color:#EA7339;
 	font-size: 7rem;
 	text-align: center;
 	font-family: 'Archivo', sans-serif;
-
 }
 
-
-nav{
- background-color: #E74C3C;
- margin-bottom: 3vh;
- width: 100%;
+/*CARDS*/
+.contenedorr{
+margin-top:50px;
 }
 
-#nav{
+.botreceta{
+	background-color: black;
+}
+.botreceta:hover{
+font-weight: bold;
+color:black;
+background:#F7DC6F;
+border-color: black;
+box-shadow: 0 0 10vh #F7DC6F, 0 0 10vh #F7DC6F,0 0 10vh #F7DC6F;
+}
+
+/*CONTENEDOR1: SACHER*/
+.contenedor1{
 	display: flex;
 	justify-content: space-around;
 }
 
+
+
+
+
+
+
+/*
 .a_class{
 	display: inline-block;
 	padding: 3vh 3vh;
@@ -65,21 +89,7 @@ background:#F7DC6F;
 box-shadow: 0 0 10vh #F7DC6F, 0 0 10vh #F7DC6F,0 0 10vh #F7DC6F;
 }
 
-.contact-button{
-    display: inline-block;
-	padding: 3vh 3vh;
-	color:black;
-	font-weight: bold;
-	text-decoration: none;
-	font-size: 1.5em;
-	background-color: #E74C3C;
-	border-radius: 5vh;
- 	margin-top: 5vh;
-	margin-right: 3vh;
-	letter-spacing: 0.01vh;
-	margin-bottom: 3%;
-	font-family: "cursiva"
-}
+
 
 
 .div1 {
@@ -96,10 +106,7 @@ box-shadow: 0 0 10vh #F7DC6F, 0 0 10vh #F7DC6F,0 0 10vh #F7DC6F;
 
 }
 
-.contenedor1{
-	display: flex;
-	justify-content: space-around;
-}
+
 
 section{
 	background-image: url(../imagenes/fondoaside.jpg);
@@ -134,7 +141,75 @@ aside{
 	font-family: 'Noto Serif', serif;
 }
 
+*/
 
+
+/*CONTENEDOR2:SACHER*/
+.contenedor2{
+	margin-top: 15vh;
+}
+
+.estilosacher{
+	color:#EA7339;
+	font-size: 6.5rem;
+	font-family: 'Archivo', sans-serif;
+	text-decoration: underline;
+	font-family: "cursiva";
+	text-align: center;
+}
+.div1 {
+	clear: both;
+	text-align: center;
+	background-image: url(../imagenes/fruto.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: cover;
+	font-weight: bold;
+	font-size: 0.9rem;
+	font-family: 'Noto Serif', serif;
+}
+
+.underline{
+	text-decoration: underline;
+	font-size: 2.1rem;
+	font-family: "cursiva";
+	display:flex;
+	justify-content: space-around;
+}
+
+.underline:hover{
+	font-size: 2.4rem;
+	color:#EA7339;
+}
+.subtitulos{
+	color: white;
+}
+.subtitulos:hover{
+	color: red;
+}
+.text-color{
+	color:white;
+}
+
+
+/*ORIGEN*/
+.origen{
+	margin-top: 15vh;
+	position: center;
+	background-color:#EA7339;
+	border-radius: 1vh;
+	color: black;
+}
+
+.est1{
+	display: flex;
+	justify-content: space-around;
+
+}
+.titulo_origen{
+	font-family: 'Noto Serif', serif;
+
+}
 
 article{
 	background-color:#f4fab4;
@@ -165,38 +240,41 @@ article{
 	justify-content: space-around;
 }
 
+/*ultimo contenedor*/
+.ultimo{
+	margin-top: 15vh;
+	color:white;
+}
+
+
+
 footer{
-	background-color: #E74C3C;
+margin-top: 1vw;
+	margin-bottom: 1.5vw;
+	background-color:black;
 	text-decoration: none;
 	height: 40%;
-	padding-left: 85vh;
-	display: flex;
-	justify-content: flex-start;
+		display: flex;
+	justify-content: center;
 }
+.iconos{
+	
+}
+
 .redes_sociales{
 	float: left;
-	margin-top: 2vw;
+	
+
 	margin-right: 3vw;
+
 }
 .redes{
 	width: 10vh;
 	height: 10vh;
 }
-.underline{
-	text-decoration: underline;
-	font-size: 2.2rem;
-	font-family: "cursiva"
-
-}
-
-.underline:hover{
-	font-size: 2.4rem;
-}
-
 
 body{
-	background-color:#f4fab4;
-	background-image: url(../imagenes/bakery.jpg);
+	background-color: #000000;
 	background-attachment: fixed;
 }
 
@@ -207,12 +285,12 @@ body{
 	border:1px solid white;
 	position: fixed;
 	z-index: 999;
-	border-radius: 50%;
-	bottom: 2vh;
-	right: 2vh;
-	padding: 4.5vh;
+	border-radius: 70%;
+	bottom: 1vh;
+	right: 6vh;
+	padding: 3vh;
 	transition: ease 0.3s;
-	width: 10vh;
+	width: 11vh;
 	animation: efecto 1.2s infinite;
 }
 
@@ -222,8 +300,8 @@ body{
 }
 
 .boton{
-	padding: center;
-	width: 10vh;
+	padding:center;
+	width: 5vh;
 	transition: ease 1s;
 
 }
@@ -241,12 +319,28 @@ form{
 	font-weight: bold;
 }
 
-
-.contact-button:hover{
-background:#F1948A;
-box-shadow: 0 0 5vh #F1948A, 0 0 5vh #F1948A,0 0 5vh #F1948A;
+/*comandos que correspondian al boton de "formulario de contacto"*/
+.contact-button{
+    display: inline-block;
+	padding: 3vh 3vh;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.5em;
+	background-color: black;
+	border-radius: 5vh;
+ 	margin-top: 5vh;
+	margin-right: 3vh;
+	letter-spacing: 0.01vh;
+	margin-bottom: 3%;
+	font-family: "cursiva";
+	border-radius: 6vh;
 }
-
+.contact-button:hover{
+	background:#F7DC6F;
+	box-shadow: 0 0 10vh #F7DC6F, 0 0 10vh #F7DC6F,0 0 10vh #F7DC6F;
+	color:black;
+/*fin de comandos que correspondian al boton de "formulario de contacto"*/
 .div1-1 {
 	font-size: 1rem;
 	color: #4A235A ;
@@ -261,30 +355,3 @@ box-shadow: 0 0 5vh #F1948A, 0 0 5vh #F1948A,0 0 5vh #F1948A;
 	color:red;
 }
 
-.subtitulos:hover{
-	color: red;
-}
-
-@media (min-width:575px){
-	nav{
-		background-color:grey;
-	}
-	h1{
-		color:#E74C3C;
-	}
-	article{
-		imag
-	}
-}
-
-@media(min-width: 991px){
-	nav{
-		background-color: white;
-	}
-	h1{
-		color:white;
-	}
-	.div1{
-		background-image: none;
-	}
-}
