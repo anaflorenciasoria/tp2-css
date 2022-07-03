@@ -16,6 +16,7 @@
 	position: fixed;
 	width: 100%;
 	background-color: black;
+	z-index: 2;
 }
 .contact{
 	color: white;
@@ -31,7 +32,8 @@
 
 /*TITLE*/
 h1{
-	color:#EA7339;
+	/*color:#EA7339;*/
+	color: black;
 	font-size: 7rem;
 	text-align: center;
 	font-family: 'Archivo', sans-serif;
@@ -59,89 +61,11 @@ box-shadow: 0 0 10vh #F7DC6F, 0 0 10vh #F7DC6F,0 0 10vh #F7DC6F;
 	justify-content: space-around;
 }
 
-
-
-
-
-
-
-/*
-.a_class{
-	display: inline-block;
-	padding: 3vh 3vh;
-	margin-top: 5vh;
-	margin-right: 3vh;
-	margin-left: 2.5vh;
-	letter-spacing: 0.01vh;
-	color:black;
-	font-weight: bold;
-	text-decoration: none;
-	overflow: hidden;
-	transition: 0.2s;
-	border-radius: 5vh;
-	font-size: 1.5em;
-	margin-bottom: 3%;
-	font-family: "cursiva"
-}
-
-.a_class:hover{
-background:#F7DC6F;
-box-shadow: 0 0 10vh #F7DC6F, 0 0 10vh #F7DC6F,0 0 10vh #F7DC6F;
+.contactoo{
+	border-color:#EA7339;
 }
 
 
-
-
-.div1 {
-	clear: both;
-	text-align: center;
-	background-image: url(../imagenes/fruto.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	width: cover;
-	font-weight: bold;
-	font-size: 0.9rem;
-	font-family: 'Noto Serif', serif;
-
-
-}
-
-
-
-section{
-	background-image: url(../imagenes/fondoaside.jpg);
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	background-color:#f4fab4;
-	margin: 1%;
-	padding: 6vh;
-	padding-top: 4vh; 
-	width: 70%;
-	box-sizing: border-box;
-	border:3px solid black;
-	height: 170vh;
-	overflow: auto;
-	font-size: 1rem;
-	font-family: 'Noto Serif', serif;
-}
-aside{
-	background-color:#f4fab4;
-	background-image: url(../imagenes/fondoaside.jpg);
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	border:3px solid black;
-	box-sizing:border-box;
-	margin: 1%;
-	padding: 6vh;
-	padding-top: 4vh; 
-	overflow: auto;
-	width:25%;
-	height: 170vh;
-	font-size: 1rem;
-	font-family: 'Noto Serif', serif;
-}
-
-*/
 
 
 /*CONTENEDOR2:SACHER*/
@@ -150,7 +74,8 @@ aside{
 }
 
 .estilosacher{
-	color:#EA7339;
+	/*color:#EA7339*/;
+	color: black;
 	font-size: 6.5rem;
 	font-family: 'Archivo', sans-serif;
 	text-decoration: underline;
@@ -167,6 +92,7 @@ aside{
 	font-weight: bold;
 	font-size: 0.9rem;
 	font-family: 'Noto Serif', serif;
+	color:black;
 }
 
 .underline{
@@ -179,7 +105,7 @@ aside{
 
 .underline:hover{
 	font-size: 2.4rem;
-	color:#EA7339;
+	color:black;
 }
 .subtitulos{
 	color: white;
@@ -188,7 +114,7 @@ aside{
 	color: red;
 }
 .text-color{
-	color:white;
+	color:black;
 }
 
 
@@ -243,7 +169,7 @@ article{
 /*ultimo contenedor*/
 .ultimo{
 	margin-top: 15vh;
-	color:white;
+	color:black;
 }
 
 
@@ -274,7 +200,7 @@ margin-top: 1vw;
 }
 
 body{
-	background-color: #000000;
+	background-color:#EA7339;
 	background-attachment: fixed;
 }
 
@@ -355,3 +281,80 @@ form{
 	color:red;
 }
 
+/*
+.a_class{
+	display: inline-block;
+	padding: 3vh 3vh;
+	margin-top: 5vh;
+	margin-right: 3vh;
+	margin-left: 2.5vh;
+	letter-spacing: 0.01vh;
+	color:black;
+	font-weight: bold;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+	border-radius: 5vh;
+	font-size: 1.5em;
+	margin-bottom: 3%;
+	font-family: "cursiva"
+}
+
+.a_class:hover{
+background:#F7DC6F;
+box-shadow: 0 0 10vh #F7DC6F, 0 0 10vh #F7DC6F,0 0 10vh #F7DC6F;
+}
+
+
+
+
+.div1 {
+	clear: both;
+	text-align: center;
+	background-image: url(../imagenes/fruto.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: cover;
+	font-weight: bold;
+	font-size: 0.9rem;
+	font-family: 'Noto Serif', serif;
+
+
+}
+
+
+
+section{
+	background-image: url(../imagenes/fondoaside.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color:#f4fab4;
+	margin: 1%;
+	padding: 6vh;
+	padding-top: 4vh; 
+	width: 70%;
+	box-sizing: border-box;
+	border:3px solid black;
+	height: 170vh;
+	overflow: auto;
+	font-size: 1rem;
+	font-family: 'Noto Serif', serif;
+}
+aside{
+	background-color:#f4fab4;
+	background-image: url(../imagenes/fondoaside.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	border:3px solid black;
+	box-sizing:border-box;
+	margin: 1%;
+	padding: 6vh;
+	padding-top: 4vh; 
+	overflow: auto;
+	width:25%;
+	height: 170vh;
+	font-size: 1rem;
+	font-family: 'Noto Serif', serif;
+}
+
+*/

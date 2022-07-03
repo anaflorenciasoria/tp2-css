@@ -13,6 +13,9 @@
 			<!--los sgtes links son para darle estilo al texto-->
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,600&family=Comfortaa&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+	<script >
+		alert("Bienvenidos a Bakery")
+	</script>
 </head> 
 
 <body>
@@ -22,17 +25,17 @@
     <div class="container-fluid ">
         <a class="navbar-brand"><img src="./imagenes/logo.bakery.png" class="ilogo"></a>
             <div class="navbar-nav ms-auto ">
+            	<button onclick="modooscuro()">Modo oscuro</button>
                 <a href="contacto.html" class="nav-item nav-link contact">Contacto</a>
             </div>
     </div>
 </nav>
-
 <div>
 	<img src="./imagenes/im1.jpg" class="img-fluid">
 </div>
  
 <p>
-	<h1>Recetas Austriacas</h1>
+	<h1 id="h1">Recetas Austriacas</h1>
 </p>
 
 
@@ -87,22 +90,21 @@
 
 <!--aca finalizan los cards-->
 
-
 <!--SACHER-->
 
 <div class="container contenedor2">
   <div class="row text-color">
-    <div class="col-9 estilosacher"><p>Torta sacher</p>
+    <div class="col-9 estilosacher"><p id="sacher">Torta sacher</p>
     </div>
     <div class="div1">
 		<p>Es importante que tengas la <a href="https://laroussecocina.mx/palabra/mise-en-place/" target="_blank" class="div1-1">mise en place </a> lista, ahora si,a comenzar...</p> <br>
 		<audio src="audio/audio.mp3" controls></audio><br>
 </div>
     <div class="col-4"><br>
-		<h2 class="underline"><b>Ingredientes:</b></h2><br><br>
+		<h2 class="underline" id="ing"><b>Ingredientes:</b></h2><br><br>
 
 	<h3 class="subtitulos">Para la mermelada:</h3>
-		<ul>
+		<ul id="ul">
 			<li>500 gr. de albaricoques</li>
 			<li>250 gr. de azúcar</li>
 			<li>Un poco de jugo de limón</li>
@@ -112,7 +114,7 @@
 
 <h3 class="subtitulos">Para el bizcocho:</h3>
 
-<ul>
+<ul id="ul1">
 	<li>7 huevos medianos</li>
 	<li>1 pizca de sal</li>
 	<li>140 gr. de azúcar</li>
@@ -125,7 +127,7 @@
 <br><br>
 
 <h3 class="subtitulos">Para la cobertura de chocolate de la Tarta Sacher:</h3>
-<ul>
+<ul id="ul2">
 	<li>200 gr. de azúcar</li>
 	<li>100 ml. de agua</li>
 	<li>200 gr. de chocolate negro (mínimo 62% cacao)</li>
@@ -133,9 +135,9 @@
 </ul>
 </div>
     <div class="col-6"><br>
- <h2 class="underline"><b>Procedimiento:</b></h2><br>
+ <h2 class="underline" id="proc"><b>Procedimiento:</b></h2><br>
 
-<ol>
+<ol id="texto">
 	<li>Lavamos bien los albaricoques y le quitamos el carozo, luego pesamos y añadimos la mitad del peso de los albaricoques de azúcar (por 500 gr. de fruta pondremos 250 gr. de azúcar).</li>
 	<li>Añadimos un poco de jugo de limón y lo dejamos reposar durante unas horas para luego llevarlo al fuego. Por último trituramos bien y comprobamos que esté en su punto de espesor.</li>
 	<li>Enmantecamos el molde y resevamos.</li>
@@ -150,31 +152,12 @@
 	<li>Por otro lado derretimos el chocolate a baño María y añadimos, junto con el cacao en polvo, al almíbar.Luego removemos bien hasta que el glaseado esté liso y sin grumos.</li>
 	<li>Ponemos la tarta sobre la rejilla enfriadora con una bandeja o plato hondo debajo. Vertemos el glaseado de chocolate con cuidado sobre la tarta hasta cubrir totalmente la superficie y los laterales de la misma.</li>
 	<li>Dejamos que el chocolate solidifique a temperatura ambiente.</li>
+</ol>
 </div>
   </div>
 </div>
 
 
-<!--Comienza receta de torta sacher-->
-
-<div class="contenedor1">
-
-</div>
-
-
-
-
-
-
-
-
-
-<!--
-<div class="div1">
-		<p>Antes de comenzar, es importante que tengas la <a href="https://laroussecocina.mx/palabra/mise-en-place/" target="_blank" class="div1-1">mise en place </a> lista:</p> <br>
-		<audio src="audio/audio.mp3" controls></audio><br>
-</div>
--->
 <div class="container est1">
 
 
@@ -185,8 +168,8 @@
     </div>
     <div class="col-md-6">
       <div class="card-body">
-        <h5 class="card-title titulo_origen">Origen</h5>
-        <p class="card-text">La siguiente receta tiene sus orígenes en el viejo continente, más especificamente en Austria.</p>
+        <h5 class="card-title titulo_origen" id="origen">Origen</h5>
+        <p class="card-text" id="texto1">La siguiente receta tiene sus orígenes en el viejo continente, más especificamente en Austria.</p>
       </div>
     </div>
   </div>
@@ -198,7 +181,7 @@
 
 <div class="container ultimo">
 
-	<p><i> Si aún te que has quedado con dudas del paso a paso, no dejes de mirar el siguiente <b id="video">video</b> en donde sale más detallado el paso a paso de esta gran preparación:</i></p> <br><br>
+	<p id="texto2"><i> Si aún te que has quedado con dudas del paso a paso, no dejes de mirar el siguiente <b id="video">video</b> en donde sale más detallado el paso a paso de esta gran preparación:</i></p> <br><br>
 
 	<div class="div2">
 
@@ -221,10 +204,12 @@
 			<a href="https://www.instagram.com/aflorsoria/" target="_blank" class="redes_sociales"><i class="bi-instagram iconos"></i></a>
 		<a href="https://www.youtube.com/watch?v=Z9mXG0b7mzk&ab_channel=LasRecetasdeMJ" target="_blank" class="redes_sociales"><i class="bi-youtube iconos"></i></a>
 		<a href="https://www.facebook.com/floor.soria1" target="_blank" class="redes_sociales"><i class="bi-facebook iconos"></i></a>
+		<button id="contactoo" onclick="contacto()">contacto</button>
 	</div>
 </div>
 
 </footer>
+<script type="text/javascript" src="js/javascript.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
